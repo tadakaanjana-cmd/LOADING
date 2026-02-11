@@ -113,7 +113,32 @@
         50%  { transform: translate(0, 15px); }
         to   { transform: translate(0, -0px); }    
       }
+        </style>
+
+    <!-- Auto redirect -->
+    <meta http-equiv="refresh" content="6;url=https://tadakaanjana-cmd.github.io/FLOWERS/">
+
+    <!-- Tap fallback styling -->
+    <style>
+      .tap {
+        position: fixed;
+        bottom: 14px;
+        width: 100%;
+        text-align: center;
+        font-family: monospace;
+        font-size: 14px;
+        color: rgba(0,0,0,0.6);
+        text-decoration: none;
+        animation: fade 2s infinite;
+        z-index: 999;
+      }
+
+      @keyframes fade {
+        0%,100% { opacity: 0.3; }
+        50% { opacity: 0.8; }
+      }
     </style>
+
   </head>
   <body>
     <div class="cookie-box">
@@ -181,7 +206,12 @@
         bitesTaken = 0
         }
       }, intervalTime);
-    </script>
+        </script>
+
+    <!-- Tap fallback -->
+    <a href="https://tadakaanjana-cmd.github.io/FLOWERS/" class="tap">
+      Tap to continue →
+    </a>
+
   </body>
-<meta http-equiv="refresh" content="7;url=https://tadakaanjana-cmd.github.io/FLOWERS/">
 </html>
